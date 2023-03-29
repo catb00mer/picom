@@ -1794,7 +1794,7 @@ struct win *fill_win(session_t *ps, struct win *w) {
 	    .animation_velocity_y = 0.0,             // updated by window geometry changes
 	    .animation_velocity_w = 0.0,             // updated by window geometry changes
 	    .animation_velocity_h = 0.0,             // updated by window geometry changes
-	    .animation_progress = 0.0,               // updated by window geometry changes
+	    .animation_progress = 1.0,               // updated by window geometry changes
 	    .animation_inv_og_distance = NAN,        // updated by window geometry changes
 	    .reg_ignore_valid = false,               // set to true when damaged
 	    .flags = WIN_FLAGS_IMAGES_NONE,          // updated by property/attributes/etc
